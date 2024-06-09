@@ -18,6 +18,7 @@ You can find previews here:
 
 ## Notes
 
+  * Documentation: https://marpit.marp.app
   * Fragments are steps; each forward / backward make a fragment visible / invisible
     * Markdown lists using `-` are one fragment in total
     * Markdown lists using `*` are one fragment per bullet point
