@@ -23,3 +23,10 @@ You can find previews here:
     * Markdown lists using `-` are one fragment in total
     * Markdown lists using `*` are one fragment per bullet point
     * See https://github.com/marp-team/marpit/issues/145
+
+
+## Links
+
+  * https://github.com/marp-team/awesome-marp
+  * https://rnd195.github.io/marp-community-themes/
+  * https://yoanbernabeu.github.io/MARP-Template-Library/
