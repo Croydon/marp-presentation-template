@@ -1,0 +1,35 @@
+name: marp-to-pages
+
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Marp Build HTML
+        uses: docker://marpteam/marp-cli
+        with:
+          args: presentation.md -o index.html
+        env:
+          MARP_USER: root:root
+
+      - name: Marp Build PDF
+        uses: docker://marpteam/marp-cli
+        with:
+          args: presentation.md --allow-local-files -o presentation.pdf
+        env:
+          MARP_USER: root:root
+
+      - name: Deploy production
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: ./
