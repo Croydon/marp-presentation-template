@@ -2,7 +2,7 @@
 
 This is my personal Marp presentation template. It might not be useful to anyone else.
 
-You have find previews here:
+You can find previews here:
   * [HTML](https://croydon.github.io/marp-presentation-template/)
   * [PDF](https://croydon.github.io/marp-presentation-template/presentation.pdf)
 
