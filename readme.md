@@ -12,7 +12,7 @@ You have find previews here:
   * Get [Marp for VS Code](https://marp.app)
   * Edit Marp for VS Code Settings:
     * Add Themes:
-       * https://raw.githubusercontent.com/croydon/marp-presentation-template/main/theme/rose-pine.css
+       * https://croydon.github.io/marp-presentation-template/theme/rose-pine.css
     * Change export to HTML
 
 
